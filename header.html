@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
+    <!-- <link rel="stylesheet" href="home.css" /> -->
+    <link rel="stylesheet" href="dist/output.css" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+
+<div class="relative w-full h-24">
+  <header id="header-wrapper">
+    <div class="left-wrapper">
+      <a href="/en/" class="brand-logo"
+        ><img
+          src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/logo-white.svg"
+          alt="logo"
+      /></a>
+    </div>
+    <div class="right-wrapper">
+      <ul id="nav-list">
+        <li id="solutions" class="nav-item">
+          <p class="font-dinCondBold">SOLUTIONS</p>
+          <div>
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAALCAYAAAByF90EAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACDSURBVHgBndDRDYAgDARQSBzAERyBURyBERjFjRgBN2AER6g0KaE2plIvITbSex84ANjayfh1xjy6NGCqBSOkUjf3H5cFE8jotCHMYgLBTpALHCvtrC/IqiIzGCHnJ8IKEUYKARzB7G4mAssCic4Sgf1DGJYYkrTdRbv03h/9wXHWdm+Gzy1iK4fK+QAAAABJRU5ErkJggg=="
+              class="icon-arrow-down"
+            />
+            <div id="solutions-wrapper" class="nav-item-slider">
+              <ul class="nav-item-slider-normal-content">
+                <li class="item">
+                  <a href="/en/media-buying" target="_blank"
+                    ><span>Media Buying</span></a
+                  >
+                </li>
+                <li class="item">
+                  <a href="/en/dsp" target="_blank"
+                    ><span>DSP Solution</span></a
+                  >
+                </li>
+                <li class="item">
+                  <a href="/en/influencer-marketing" target="_blank"
+                    ><span>Influencer Marketing</span></a
+                  >
+                </li>
+                <li class="item">
+                  <a href="/en/topworks" target="_blank"
+                    ><span>Creatives With TopWorks</span></a
+                  >
+                </li>
+                <li class="item">
+                  <a href="/en/advertise-on-tiktok" target="_blank"
+                    ><span>TikTok Solution</span></a
+                  >
+                </li>
+                <li class="item">
+                  <a href="/en/marketing-to-china" target="_blank"
+                    ><span>Xplore China</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="about-us" class="nav-item">
+          <a href="/en/who-we-are" target="_blank">
+            <p class="font-dinCondBold">COMPANY</p>
+          </a>
+        </li>
+        <li id="blog-resources" class="nav-item">
+          <a href="/en/blog" target="_blank">
+            <p class="font-dinCondBold">BLOG</p>
+          </a>
+        </li>
+        <li id="success-cases" class="nav-item">
+          <a href="/en/case-studies" target="_blank">
+            <p class="font-dinCondBold">CASES</p>
+          </a>
+        </li>
+        <li id="news-and-event" class="nav-item">
+          <a href="/en/news-room" target="_blank">
+            <p class="font-dinCondBold">NEWS &amp; EVENTS</p>
+          </a>
+        </li>
+      </ul>
+      <div class="jump-btn-wrap">
+        <span
+          class="font-dinCondBold hover-item jump-btn justify-center items-center px-3 border-2 border-solid text-white border-gray-200"
+        >
+          GET IN TOUCH
+        </span>
+      </div>
+
+      <div id="lang-btn" class="font-dinCondBold">
+        EN
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAALCAYAAAByF90EAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACDSURBVHgBndDRDYAgDARQSBzAERyBURyBERjFjRgBN2AER6g0KaE2plIvITbSex84ANjayfh1xjy6NGCqBSOkUjf3H5cFE8jotCHMYgLBTpALHCvtrC/IqiIzGCHnJ8IKEUYKARzB7G4mAssCic4Sgf1DGJYYkrTdRbv03h/9wXHWdm+Gzy1iK4fK+QAAAABJRU5ErkJggg=="
+          class="icon-arrow-down"
+        />
+        <div id="lang-btn-wrapper">
+          <div class="cursor-pointer lang-select-item">HK</div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div
+    class="flex fiexd justify-between right-0 w-full z-40 py-8 px-20 bg-black md:px-9 md:pt-12"
+  >
+    <a
+      href="/en"
+      class="flex justify-center items-center logo-warp cursor-pointer z-50"
+    >
+      <img
+        src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/logo-white.svg"
+      />
+    </a>
+    <div class="flex justify-between items-center blue">
+      <span
+        id="touchBtn"
+        class="hover-item jump-btn flex justify-center items-center px-3 mx-10 h-10 border-2 border-solid text-white border-gray-200"
+      >
+        GET IN TOUCH
+      </span>
+      <span id="isShowMenu" class="hover-item cursor-pointer z-50">
+        <svg
+          width="50"
+          height="43"
+          viewBox="0 0 50 43"
+          fill="white"
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-10 h-10 transition-all duration-200 ease-linear md:w-12 md:h-12"
+        >
+          <rect width="50" height="7"></rect>
+          <rect y="18" width="50" height="7"></rect>
+          <rect y="36" width="50" height="7"></rect>
+        </svg>
+      </span>
+    </div>
+  </div>
+
+  <div id="header-main" class="header-main flex justify-center z-30">
+    <div class="mt-44 w-1280 flex justify-between md:flex-col md:justify-start">
+      <div class="w-600 flex-col">
+        <div class="flex-col">
+          <div class="navItem">
+            <h3 class="cursor-pointer text-black md:text-8xl">WHAT WE DO</h3>
+          </div>
+        </div>
+        <div class="flex-col">
+          <div class="navItem">
+            <h3 class="cursor-pointer text-black md:text-8xl">WHO WE ARE</h3>
+          </div>
+        </div>
+        <div class="flex-col">
+          <div class="navItem">
+            <h3 class="cursor-pointer text-black md:text-8xl">OUR THINKING</h3>
+          </div>
+        </div>
+        <div class="flex-col">
+          <div class="navItem">
+            <h3 class="cursor-pointer text-black md:text-8xl">
+              SUCCESS STORIES
+            </h3>
+          </div>
+        </div>
+        <div class="flex-col">
+          <div class="navItem">
+            <h3 class="cursor-pointer text-black md:text-8xl">
+              NEWS &amp; EVENTS
+            </h3>
+          </div>
+        </div>
+        <div class="flex-col">
+          <div class="navItem">
+            <h3 class="cursor-pointer text-black md:text-8xl">GET IN TOUCH</h3>
+          </div>
+        </div>
+      </div>
+      <div class="w-600 flex-col">
+        <ul class="flex-col text-5xl md:text-6xl">
+          <li id="contact" class="text-6xl mb-8">
+            <a href="https://www.nativex.com/en/get-in-touch/" target="_blank">
+              <h5 class="text-black">CONTACT US</h5>
+            </a>
+          </li>
+          <li class="mt-5 mb-10 md:my-0">
+            <a href="https://www.facebook.com/nativex/" target="_blank">
+              <img
+                src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI1LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IuWbvuWxgl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMzYgMzYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDM2IDM2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnIGlkPSJMYXllcl8yIj4KCTxnIGlkPSJMYXllcl8xLTIiPgoJCTxwYXRoIGQ9Ik0wLDB2MzZoMTkuMlYyMi4xaC00Ljd2LTUuNGg0Ljd2LTRjMC00LjcsMi44LTcuMiw3LTcuMmMxLjQsMCwyLjgsMC4xLDQuMiwwLjJ2NC45aC0yLjljLTIuMiwwLTIuNywxLjEtMi43LDIuN3YzLjVoNS40CgkJCWwtMC43LDUuNGgtNC43VjM2SDM2VjBIMHoiLz4KCTwvZz4KPC9nPgo8L3N2Zz4K"
+                class="unhover contact-icon" />
+              <img
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiMyNjRmZmY7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5Bc3NldCAzPC90aXRsZT48ZyBpZD0iTGF5ZXJfMiIgZGF0YS1uYW1lPSJMYXllciAyIj48ZyBpZD0iTGF5ZXJfMS0yIiBkYXRhLW5hbWU9IkxheWVyIDEiPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTAsMFYzNkgxOS4yM1YyMi4wNkgxNC41NFYxNi42M2g0LjY5di00YzAtNC42NSwyLjg0LTcuMTgsNy03LjE4YTQwLjc2LDQwLjc2LDAsMCwxLDQuMTkuMjF2NC44NkgyNy41M2MtMi4yNSwwLTIuNjksMS4wNy0yLjY5LDIuNjV2My40N2g1LjM4bC0uNyw1LjQzSDI0Ljg0VjM2SDM2VjBaIi8+PC9nPjwvZz48L3N2Zz4="
+                class="hover contact-icon" /></a
+            ><a href="https://twitter.com/nativeX?lang=en" target="_blank"
+              ><img
+                src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIzLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IuWbvuWxgl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMzYgMzYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDM2IDM2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+Cjx0aXRsZT5Bc3NldCAyPC90aXRsZT4KPGcgaWQ9IkxheWVyXzIiPgoJPGcgaWQ9IkxheWVyXzEtMiI+CgkJPHBhdGggZD0iTTAsMHYzNmgzNlYwSDB6IE0yOCwxMi45YzAsMC4yLDAsMC40LDAsMC43YzAsOC4xLTYuNSwxNC42LTE0LjYsMTQuNmMtMi44LDAtNS42LTAuOC03LjktMi4zYzAuNCwwLDAuOCwwLjEsMS4yLDAuMQoJCQljMi4zLDAsNC42LTAuOCw2LjQtMi4yYy0yLjIsMC00LjEtMS41LTQuOC0zLjZjMC4zLDAuMSwwLjcsMC4xLDEsMC4xYzAuNSwwLDAuOS0wLjEsMS40LTAuMmMtMi40LTAuNS00LjEtMi42LTQuMS01VjE1CgkJCWMwLjcsMC40LDEuNSwwLjYsMi4zLDAuNmMtMi4zLTEuNS0zLTQuNS0xLjYtNi45YzIuNiwzLjIsNi41LDUuMiwxMC42LDUuNGMtMC4xLTAuNC0wLjEtMC43LTAuMS0xLjFjMC0yLjgsMi4zLTUuMSw1LjEtNS4xCgkJCWMxLjQsMCwyLjgsMC42LDMuOCwxLjZjMS4yLTAuMiwyLjMtMC43LDMuMy0xLjNjLTAuNCwxLjItMS4yLDIuMi0yLjMsMi44YzEtMC4xLDItMC40LDMtMC44QzI5LjksMTEuMiwyOSwxMi4yLDI4LDEyLjl6Ii8+Cgk8L2c+CjwvZz4KPC9zdmc+Cg=="
+                class="unhover contact-icon" />
+              <img
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiMyNjRmZmY7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5Bc3NldCAyPC90aXRsZT48ZyBpZD0iTGF5ZXJfMiIgZGF0YS1uYW1lPSJMYXllciAyIj48ZyBpZD0iTGF5ZXJfMS0yIiBkYXRhLW5hbWU9IkxheWVyIDEiPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTAsMFYzNkgzNlYwWk0yOCwxMi44OWMwLC4yMiwwLC40NCwwLC42N0ExNC42MiwxNC42MiwwLDAsMSw1LjQ3LDI1Ljg3YTEwLjE0LDEwLjE0LDAsMCwwLDEuMjMuMDcsMTAuMjksMTAuMjksMCwwLDAsNi4zOC0yLjIsNS4xNSw1LjE1LDAsMCwxLTQuOC0zLjU3LDUuMjMsNS4yMywwLDAsMCwxLC4xLDUsNSwwLDAsMCwxLjM1LS4xOSw1LjEzLDUuMTMsMCwwLDEtNC4xMi01VjE1YTUsNSwwLDAsMCwyLjMzLjY0QTUuMTMsNS4xMywwLDAsMSw3LjIyLDguNzZhMTQuNTYsMTQuNTYsMCwwLDAsMTAuNTksNS4zN0E1LDUsMCwwLDEsMTcuNjgsMTNhNS4xNCw1LjE0LDAsMCwxLDguODktMy41MkExMC4yLDEwLjIsMCwwLDAsMjkuODMsOC4yLDUuMTEsNS4xMSwwLDAsMSwyNy41NywxMWExMC4yMiwxMC4yMiwwLDAsMCwzLS44MUExMC4zMiwxMC4zMiwwLDAsMSwyOCwxMi44OVoiLz48L2c+PC9nPjwvc3ZnPg=="
+                class="hover contact-icon" /></a
+            ><a href="https://www.linkedin.com/company/2999974" target="_blank"
+              ><img
+                src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIzLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IuWbvuWxgl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMzYgMzYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDM2IDM2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+Cjx0aXRsZT5Bc3NldCAxPC90aXRsZT4KPGcgaWQ9IkxheWVyXzIiPgoJPGcgaWQ9IkxheWVyXzEtMiI+CgkJPHBhdGggZD0iTTAsMHYzNmgzNlYwSDB6IE0xMC45LDMwLjlINS41VjEzLjdoNS40TDEwLjksMzAuOXogTTguMiwxMS4zYy0xLjcsMC0zLjEtMS40LTMuMS0zLjFjMC0xLjcsMS40LTMuMSwzLjEtMy4xCgkJCXMzLjEsMS40LDMuMSwzLjFjMCwwLDAsMCwwLDBDMTEuMyw5LjksOS45LDExLjMsOC4yLDExLjNDOC4yLDExLjMsOC4yLDExLjMsOC4yLDExLjN6IE0zMC45LDMwLjloLTUuNHYtOC40YzAtMiwwLTQuNi0yLjgtNC42CgkJCXMtMy4yLDIuMi0zLjIsNC40djguNWgtNS4zVjEzLjdoNS4xVjE2aDAuMWMxLTEuOCwzLTIuOSw1LjEtMi44YzUuNCwwLDYuNCwzLjYsNi40LDguMlYzMC45eiIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo="
+                class="unhover contact-icon" />
+              <img
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiMyNjRmZmY7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5Bc3NldCAxPC90aXRsZT48ZyBpZD0iTGF5ZXJfMiIgZGF0YS1uYW1lPSJMYXllciAyIj48ZyBpZD0iTGF5ZXJfMS0yIiBkYXRhLW5hbWU9IkxheWVyIDEiPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTAsMFYzNkgzNlYwWk0xMC44NiwzMC45SDUuNVYxMy42N2g1LjM2Wk04LjE4LDExLjMxYTMuMTEsMy4xMSwwLDEsMSwzLjExLTMuMUEzLjEsMy4xLDAsMCwxLDguMTgsMTEuMzFaTTMwLjkyLDMwLjlIMjUuNTdWMjIuNTJjMC0yLDAtNC41Ny0yLjc4LTQuNTdzLTMuMjIsMi4xOC0zLjIyLDQuNDNWMzAuOUgxNC4yMlYxMy42N2g1LjE0VjE2aC4wN2E1LjYzLDUuNjMsMCwwLDEsNS4wNy0yLjc4YzUuNDIsMCw2LjQyLDMuNTcsNi40Miw4LjIxWiIvPjwvZz48L2c+PC9zdmc+"
+                class="hover contact-icon" /></a
+            ><a
+              href="https://www.youtube.com/channel/UC-clVzYI64VeMTQpb_lo3Ow"
+              target="_blank"
+              ><img
+                src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI1LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAzNiAzNiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzYgMzY7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHBvbHlnb24gcG9pbnRzPSIyMy45LDE4IDE0LDIzLjkgMTQsMTIuMiAyMy45LDE4ICIvPgo8cGF0aCBkPSJNMCwwdjM2aDM2VjBIMHogTTMzLjIsMjMuNGMwLDUuMi01LjIsNS4yLTUuMiw1LjJIOC4xYy01LjIsMC01LjItNS4yLTUuMi01LjJWMTIuNmMwLTUuMiw1LjItNS4yLDUuMi01LjJoMTkuOQoJYzUuMiwwLDUuMiw1LjIsNS4yLDUuMlYyMy40eiIvPgo8L3N2Zz4K"
+                class="unhover contact-icon" />
+              <img
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MCA4MCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiMyNjUwZmY7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5Zb3VUdWJlIDM8L3RpdGxlPjxnIGlkPSLlm77lsYJfMiIgZGF0YS1uYW1lPSLlm77lsYIgMiI+PGcgaWQ9IuWbvuWxgl8xLTIiIGRhdGEtbmFtZT0i5Zu+5bGCIDEiPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTMzLjYzLDQ5Ljc3LDUwLjMyLDQwLDMzLjYzLDMwLjMxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTAsMFY4MEg4MFYwWk03Miw0MS4yNWE4NC43OSw4NC43OSwwLDAsMS0uODMsMTJjLS4zNiwyLjQ1LTEsNC43LTMsNi4zOWE5Ljc2LDkuNzYsMCwwLDEtNS43NSwyLjEsMjUwLjI0LDI1MC4yNCwwLDAsMS0yOS44Ny43OWMtNC0uMTEtOC0uMjgtMTIuMDYtLjUzYTI3LjEsMjcuMSwwLDAsMS01LjYyLS44Yy0zLjQtLjk1LTUuMjYtMy40NC01Ljc2LTYuODYtLjQyLTIuODUtLjc0LTUuNzItLjkyLTguNTlhOTYuNDIsOTYuNDIsMCwwLDEsLjI3LTE1LjIsNDAuODksNDAuODksMCwwLDEsLjkxLTUuOTUsOCw4LDAsMCwxLDcuMTktNi4xNmM3LjgxLTEsMTUuNjUtLjg5LDI1LjMxLTEuMTMsNC43MS4xOSwxMS4yMy40LDE3Ljc1Ljc0YTI1LjI4LDI1LjI4LDAsMCwxLDUuODEuODgsNy42LDcuNiwwLDAsMSw1LjQ2LDYuMzRBODAuNDcsODAuNDcsMCwwLDEsNzIsNDEuMjVaIi8+PC9nPjwvZz48L3N2Zz4="
+                class="hover contact-icon"
+            /></a>
+          </li>
+        </ul>
+        <ul class="lang-list mt-36 w-full md:mt-12">
+          <li class="text-2xl cursor-pointer selected">English</li>
+          <li class="text-2xl cursor-pointer">简体中文</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    let isShowMenuSpan = document.getElementById("isShowMenu");
+    let headerMain = document.getElementById("header-main");
+    let touchBtn = document.getElementById("touchBtn");
+
+    isShowMenuSpan.addEventListener("click", function () {
+      if (!headerMain.classList.contains("show")) {
+        touchBtn.classList.add("show");
+        headerMain.classList.add("show");
+        isShowMenuSpan.querySelector("svg").style.fill = "black";
+      } else {
+        touchBtn.classList.remove("show");
+        headerMain.classList.remove("show");
+        isShowMenuSpan.querySelector("svg").style.fill = "white";
+      }
+    });
+  });
+</script>

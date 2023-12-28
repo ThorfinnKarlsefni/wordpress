@@ -1,0 +1,136 @@
+.common-bar-TX {
+  background-image: url(/footer-bar.png);
+  height: 1.042vw;
+  width: 100%;
+}
+
+.footer-subtitle h4 {
+  font-size: 1.563vw;
+  line-height: 1.875vw;
+  white-space: pre-line;
+}
+
+.footer-box {
+  display: flex;
+  flex-wrap: wrap;
+  white-space: nowrap;
+}
+
+.footer-box .subtitle {
+  font-family: FZFangJunHeiS;
+  font-size: 1.146vw;
+  font-weight: 700;
+  line-height: 1.146vw;
+  margin-bottom: 1.354vw;
+}
+
+.footer-box ul li {
+  font-family: DIN OT;
+  font-size: 0.938vw;
+  line-height: 2.083vw;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.footer-box ul li .icon {
+  margin-bottom: 1.563vw;
+  margin-right: 0.26vw;
+}
+
+.footer-box ul li.parterAndSitemap {
+  font-size: 1.146vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.146vw;
+  margin-bottom: 1.563vw;
+}
+
+.footer-box ul li.parterAndSitemap a {
+  font-family: DIN_Cond_Black, FZFangJHJW_Cu, SF Pro KR, NOTOSANSCJKJP_Bold,
+    sans-serif;
+}
+
+.footer-bar {
+  border-top: 1px solid #3e3c3c;
+}
+
+.footer-bar .footer-bar-item {
+  color: #868585;
+  font-size: 0.938vw;
+  line-height: 1.563vw;
+}
+
+.footer-bar .footer-bar-item {
+  color: #868585;
+  font-size: 0.938vw;
+  line-height: 1.563vw;
+}
+
+.footer-bar .footer-bar-item {
+  color: #868585;
+  font-size: 0.938vw;
+  line-height: 1.563vw;
+}
+
+@media screen and (max-width: 768px) {
+  .common-bar-TX {
+    height: 10px;
+  }
+  .footer-main {
+    padding: 32px 0 15px 30px;
+  }
+
+  h4 {
+    font-size: 40px !important;
+    line-height: 39px !important;
+    padding-top: 20px;
+  }
+  .footer-box {
+    display: flex;
+    flex-wrap: wrap;
+    white-space: nowrap;
+  }
+
+  .footer-box ul {
+    margin-bottom: 32px;
+  }
+
+  .footer-box .subtitle {
+    font-family: FZFangJunHeiS;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  li h5 {
+    font-size: 16px;
+  }
+
+  li a {
+    font-size: 14px;
+  }
+
+  .footer-box ul {
+    margin-bottom: 32px;
+  }
+
+  .footer-box ul li {
+    font-family: DIN OT;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .footer-box div:last-child ul .subtitle {
+    border: 1px solid #fff;
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+  }
+  .footer-box ul li .icon {
+    margin-bottom: 16px;
+    margin-right: 5px;
+  }
+}

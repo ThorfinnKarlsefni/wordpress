@@ -1,0 +1,185 @@
+@font-face {
+  font-display: swap;
+  font-family: DINW10Bold;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/DINW10Bold.woff) format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: DINW10Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/DINW10Regular.woff) format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: DIN_Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/DIN-Regular.otf) format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: DIN_Medium;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/DIN-Medium.otf) format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: DIN_Cond_Bold;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/DINCond-Bold.otf) format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: DIN_Cond_Black;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/DINCond-Black.otf) format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: DIN_Bold;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/DINW10Bold.woff) format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: FZFangJHJW_Cu;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/FZFangJHJW_Cu.ttf) format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: FZFangJHJW;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/FZFangJHJW.ttf) format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: NOTOSANSCJKJP;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/NOTOSANSCJKJP-BLACK.otf) format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: NOTOSANSCJKJP_Bold;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/NOTOSANSCJKJP-BOLD.otf) format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: NOTOSANSCJKJP_regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/NOTOSANSCJKJP-REGULAR.otf) format("truetype");
+}
+
+:root {
+  --color-white: #fff;
+  --color-blue: #2650ff;
+  --color-yellow: #ffbc07;
+}
+
+a,
+em,
+img,
+input,
+li,
+p,
+section,
+span,
+ul {
+  font-family: DIN_Regular, FZFangJHJW, SF Pro KR, NOTOSANSCJKJP_regular,
+    sans-serif;
+}
+
+a,
+em,
+img,
+input,
+li,
+p,
+section,
+span,
+ul {
+  font-family: DIN_Regular, FZFangJHJW, SF Pro KR, NOTOSANSCJKJP_regular,
+    sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: DIN_Cond_Black, FZFangJHJW_Cu, SF Pro KR, NOTOSANSCJKJP_Bold,
+    sans-serif;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body,
+html {
+  background-color: #fff;
+  color: #000;
+  font-size: 0.833vw;
+  margin: 0;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(50%);
+  }
+
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.w-600 {
+  animation: slideIn 1.5s ease forwards;
+}
+
+ul li a .hover {
+  display: none;
+}
+
+ul li a .unhover {
+  display: block;
+}
+
+ul li a:hover .unhover {
+  display: none;
+}
+
+ul li a:hover .hover {
+  display: block;
+}
